@@ -17,10 +17,13 @@ while   first_integer <= 5
 end
 
 =begin
-pour tester ! 
+
+        <----- For testing email  ------>
 
 mail_array.each_with_index do |item, index|
     puts item, index
 end
+
+        <----- For testing email  ------->
 
 =end

@@ -2,6 +2,8 @@ first_integer = 0
 second_integer = 0
 index = 0
 mail_array = Array.new(50)
+=begin
+        <-------- Same code as exo_13.rb  ---------->
 
 while   first_integer <= 5
     if  second_integer == 9
@@ -16,6 +18,8 @@ while   first_integer <= 5
     mail_array[index] = "jean.dupont.#{first_integer - 1}#{second_integer + 1}@email.fr"
 end
 
+        <-------- Same code as exo_13.rb   ---------->
+=end
 index = 1
 
 25.times do
